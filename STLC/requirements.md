@@ -29,6 +29,13 @@ Nutzer sollen Produkte mit einem 5-Sterne-System bewerten und zusätzlich schrif
 7. Gibt es einen Hinweis auf erlaubte Zeichenanzahl im Feedback-Feld (und somit eine clientseitige Begrenzung/ serverseitige Validierung)?
 
 **Detaillierte Anforderung**:
+- Eingeloggte Nutzer können pro Produkt genau eine Bewertung abgeben
+- Das Bewertungssystem besteht aus einer 5-Sterne-Auswahl (1-5 Sterne) und einem optionalen Textfeld
+- Der schriftliche Kommentar ist optional und auf 500 Zeichen begrenzt
+- Bewertungen können nach der Abgabe nicht mehr bearbeitet, aber gelöscht werden
+- Nutzer können nur Produkte bewerten, die sie tatsächlich gekauft haben
+- Der Durchschnitt aller Bewertungen wird auf der Produktdetailseite als Sterne-Wert und dezimaler Wert (z. B. 4.2/5) angezeigt
+- Neue Bewertungen sind sofort sichtbar (keine Freigabe durch Admin erforderlich)
 
 ---
 
